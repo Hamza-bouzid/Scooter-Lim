@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(background.jpg) no-repeat;
+  background-size: cover;
+  font-family: "Montserrat", sans-serif;
+}
+
+/*** CONTAINER ***/
+#container {
+  margin: 25px auto;
+  padding: 65px;
+  width: 65%;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  border-radius: 18px;
+}
+
+/*** HEADER***/
+
+header {
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+header img {
+  width: 230px;
+}
+
+header h1 {
+  color: #00dd00;
+}
+
+/*** NAV***/
+nav {
+  background-color: #00dd00;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0 4px;
+  background-color: #f0f2f0;
+  color: #000;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 2px;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav a:active {
+  color: #00dd00;
+}
+
+/*** MAIN***/
+
+main {
+  margin-top: 20px;
+}
+
+.monopattino {
+  margin-bottom: 30px;
+}
+
+.monopattino input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+.monopattino p {
+  margin-top: 5px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.titolo {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.carica {
+  height: 25px;
+  margin-top: 3px;
+  border-radius: 4px;
+}
+
+.arancione {
+  background-color: #f5b453;
+  width: 35%;
+}
+
+.verde {
+  background-color: #00dd00;
+  width: 65%;
+}
+
+.rosso {
+  background-color: #be4141;
+  width: 15%;
+}
